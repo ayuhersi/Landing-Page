@@ -6,8 +6,8 @@ Description
 Delani studio is a team of committed collaborators.All aspects of our softeware development process are intergrated,interactive and agile. Our approach unifies design, development and product management to create exceptional products.
 
 Setup/Installation Requirements
-git clone https://github.com/ayuhersi/First-JS-Project.git
-* cd First-JS-Project/
+git clone https://ayuhersi.github.io/Landing-Page/
+* cd Landing-Page/
 packagemanager install
 * ./configure
 make
