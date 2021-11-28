@@ -2,52 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="DelaniStudio">Welcome toDelani Studio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <script src="js/jQuery.js" type="text/JavaScript"></script>
-    <script src="main.js"></script>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>Delani Studio</title>
   </head>
   <body>
-    <div class=".has-bg-img">
-        <img class="bg-img" src="img\h_img.jpg" alt="">
-      <img src="img\logo.png" alt="Delani" srcset="" />
-      <div>
-        Welcome
-        </div>
-        <div>
-        to Delani studio
+    <div class="background">
+      <div class="logo">
+        <img alt="" src="img/logo.png" />
+        <div>Welcome</div>
+        <div>To Delani Studio</div>
+        <span
+          >Amazing people are making amazing designs in a fun environment</span
+        >
       </div>
-      <span>Amazing people are making designs in a fun enviroment</span>
-
-      <img src="img\mouse_click.png" alt="Mouse" srcset="" />
+      <div class="mouse" id="mouse_click">
+        <img alt="" src="img/mouse_click.png" />
+      </div>
     </div>
-
     <div class="container" id="about">
       <h1>ABOUT US</h1>
       <p>
-        When you work with us, you are apart of a team of commited
-        collaberators. All aspects of our software development process are
-        intergrated, interactive.
+        Then you work with us, you are part of a team of committed
+        collaborators.All aspects of our softeware development process are
+        intergrated,interactive and agile.
       </p>
-      <p>and agile.</p>
       <p>
         Our approach unifies design, development and product management to
         create exceptional products.
       </p>
       <p>
-        We start each project by understanding your business goals, the users
-        needs and the product requirments.
+        We start each project by understanding your business goals, the user's
+        needs and the product requirements
       </p>
-
       <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
-
     <div class="services" id="services">
       <div class="container">
         <div class="text">
@@ -67,345 +58,216 @@
         </div>
       </div>
     </div>
-                 <section id="clients" class="clients sect">
-        <div class="container">
-          <h2>What We Do</h2>
-          <div class= "row" data-aos="zoom-in">
-
-             <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center ">
-             <div class="design"> 
+    <section class="cliens sect" id="cliens">
+      <div class="container">
+        <h2>What We Do</h2>
+        <div class="row" data-aos="zoom-in">
+          <div
+            class="
+              col-lg-4 col-md-4 col-6
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="design">
               <div id="img1">
-                <img  src="img\design_icon.png" class="img-fluid" alt="">
+                <img alt="" class="img-fluid" src="img/design_icon.png" />
                 <h5>Design</h5>
               </div>
-              <div id="dsn" style="display: none;">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-              Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</div>
+              <div id="ttt" style="display: none">
+                Our design practice offers a full range of services including
+                brand strategy, interaction and visual design and user
+                experience testing. Throughout your project, our designers
+                create and implement visual design and workflows, solicit user
+                feedback and work with you to make sure what gets built is what
+                is needed.
+              </div>
             </div>
+          </div>
+          <div
+            class="
+              col-lg-4 col-md-4 col-6
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="design">
+              <div id="img2">
+                <img alt="" class="img-fluid" src="img/dev_icon.png" />
+                <h5>Development</h5>
+              </div>
+              <div id="ttt2" style="display: none">
+                All engineers are fluent in the latest enterprise, mobile and
+                web development technologies. They collaborate with your team to
+                write, and improve code on a daily basis, using proven practices
+                such as test-driven development and pair programming.
+              </div>
             </div>
-
-            <div>
-                <div class= "col-lg-4 col-md-4 col-6d-flex align-items-center justify-content-center">
-                    <div class="design">
-                        <div id="img2"></div>
-                        <img src="img\dev_icon.png" class="img-fluid" alt="">
-                        <h5>Development</h5>
-                    </div>
-                    <div id="dsn1" style="display: none;">All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                    They collaborate with your team to write, and improve code on a daily basis,using proven practices such as test driven development and pair programming</div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center ">
-             <div class="design"> 
+          </div>
+          <div
+            class="
+              col-lg-4 col-md-4 col-6
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="design">
               <div id="img3">
-                <img  src="img\product_icon.png" class="img-fluid" alt="">
+                <img alt="" class="img-fluid" src="img/product_icon.png" />
                 <h5>Product Management</h5>
               </div>
-              <div id="dsn3" style="display: none;">Planning and Developing is iterative. Because we are constantly coding and testing.The products we build are always ready to go live.
-             This Iterative process allowed for changes as buiseness requirments evolve.</div>
-            </div>
-            </div>
-
-            </section>
-
-            <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2 style="text-align: center;">Portfolio</h2>
-          </div>
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work4.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work3.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work2.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work1.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work5.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work6.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work7.jpg" class="img-fluid" alt=""></div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img"><img src="img\work8.jpg" class="img-fluid" alt=""></div>
+              <div id="ttt3" style="display: none">
+                Planning and development is iterative. Because we are constantly
+                coding and testing, the products we build are always ready to go
+                live. This iterative process allows for changes as business
+                requirements evolve.
+              </div>
             </div>
           </div>
-
-  
         </div>
-      </section>
-
-      
-          <div class="contact" id="contact">
-        <div class="container">
-            <h1>CONTACT US</h1>
-            <form id="form34A" action="http://eepurl.com/hBMaxD" method="POST">
-                <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
-                <input type="hidden" name="id" value="dbf7e27685">
-                <div class="form-group form-inline">
-                    <input type="text" class="form-control" placeholder="Name...." name="MERGE1" id="MERGE1" size="25"
-                        value="">
-                    <input type="email" class="form-control" placeholder="Email...." autocapitalize="off"
-                        autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary col-md-1" align-item-center>Submit</button>
-            </form>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 style="text-align: center">Portfolio</h2>
         </div>
+        <div
+          class="row portfolio-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work4.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work3.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work2.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work1.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work5.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work6.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work7.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img">
+              <img alt="" class="img-fluid" src="img/work8.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact" id="contact">
+      <div class="container">
+        <h1>CONTACT US</h1>
+        <form
+          action="http://eepurl.com/hBMaxD"
+          id="form34A"
+          method="post"
+          name="form34A"
+        >
+          <input name="u" type="hidden" value="e71bed4d6ae5a7c984dfe28b0" />
+          <input name="id" type="hidden" value="dbf7e27685" />
+          <div class="form-group form-inline">
+            <input
+              class="form-control"
+              id="MERGE1"
+              name="MERGE1"
+              placeholder="Name...."
+              size="25"
+              type="text"
+              value=""
+            />
+            <input
+              class="form-control"
+              id="MERGE0"
+              name="MERGE0"
+              placeholder="Email...."
+              size="25"
+              type="email"
+              value=""
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="comment"
+              placeholder="Your message here...."
+              rows="8"
+            ></textarea>
+          </div>
+          <button class="btn btn-primary col-md-1" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
-      
-      <footer>
-          <img src="img\twitter.png" alt="Twitter" >
-           <img src="img\dribble.png" alt="Dribble" >
-            <img src="img\facebook.png" alt="Facebook" >
-             <img src="img\g_plus.png" alt="Google+" >
-              <img src="img\skype.png" alt="skype" >
-               <img src="img\stumble_upon.png" alt="stumble" >
-                <img src="img\behance.png" alt="behance" >
-                <img src="img\pinterest.png" alt="Pintrest" >
-                <img src="img\flickr.png" alt="flicker" >
-
-            <p>DELANI STUDIO</p>
-            <p>
-                2021
-            </p>
-               
-
-
-
-      </footer>
-
-      <style>
-          @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Oxygen&family=PT+Sans+Caption&display=swap');
-
-html{
-  scroll-behavior: smooth;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    
-
-    /* Welcome section styling */
-}
-.background{
-    background-image: url("img\h_img.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 670px;
-
-}
-.logo{
-    text-align: center;
-    padding-top: 190px;
-}
-.logo div{
-    text-align: center;
-    color: #fff;
-    font-size: 10vh;
-}
-.logo span{
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 2.5vh;
-    font-family: cursive;
-}
-.mouse{
-    text-align: center;
-    padding-top: 125px;
-    
-}
-#mouse_click{
-    animation: bounce 1s infinite;    
-}
-
-
-
-
-/* about us section styling */
-.container{
-    padding-top: 30px;
-}
-#about{
-    text-align: center;
-}
-
-
-
-
-
-.services{
-    background-image: url("../images/backgrounds/s_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-}
-.services .container{
-    color: #fff;
-    text-align: center;
-}
-.text{
-    margin-top: 100px;
-
-}
-
-
-
-/* What we do styling section */
-
-#what h1{
-    
-    text-align: center;
-}
-.clients {
-    padding: 12px 0;
-    text-align: center;
-  }
-  
-  .clients img {
-    max-width: 45%;
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 15px 0;
-    filter: grayscale(100);
-  }
-  
-  .clients img:hover {
-    filter: none;
-    transform: scale(1.1);
-  }
-  
-  @media (max-width: 768px) {
-    .cliens img {
-      max-width: 40%;
-    }
-  }
-
-  .aline{
-    margin: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-h6{
-    text-align: center;
-}
-.design {
-    display: block;
-    text-align: center;    
-}
-
-
-
-/* Portfolio styling section */
-
-.portfolio #portfolio-flters {
-    list-style: none;
-    margin-bottom: 20px;
-  }
-  
-  .portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    margin: 10px 5px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1;
-    color: #444444;
-    transition: all 0.3s;
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-    background: #47b2e4;
-    color: #fff;
-  }
-  
-  .portfolio .portfolio-item {
-    margin-bottom: 30px;
-  }
-  
-  .portfolio .portfolio-item .portfolio-img {
-    overflow: hidden;
-  }
-  
-  .portfolio .portfolio-item .portfolio-img img {
-    transition: all 0.6s;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    left: 15px;
-    bottom: 0;
-    z-index: 3;
-    right: 15px;
-    transition: all 0.3s;
-    background: rgba(55, 81, 126, 0.8);
-    padding: 10px 15px;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info h4 {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 0px;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info p {
-    color: #f9fcfe;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
-    position: absolute;
-    right: 40px;
-    font-size: 24px;
-    top: calc(50% - 18px);
-    color: #fff;
-    transition: 0.3s;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #47b2e4;
-  }
-  
-  .portfolio .portfolio-item .portfolio-info .details-link {
-    right: 10px;
-  }
-  
-  .portfolio .portfolio-item:hover .portfolio-img img {
-    transform: scale(1.15);
-  }
-  
-  .portfolio .portfolio-item:hover .portfolio-info {
-    opacity: 1;
-  }
-
-      </style>
-
-
-
+    <footer>
+      <img alt="twitter" src="img/twitter.png" />
+      <img alt="dribble" src="img/dribble.png" />
+      <img alt="facebook" src="img/facebook.png" />
+      <img alt="g_plus" src="img/g_plus.png" />
+      <img alt="skype" src="img/skype.png" />
+      <img alt="stumble_upon" src="img/stumble_upon.png" />
+      <img alt="behance" src="img/behance.png" />
+      <img alt="pinterest" src="img/pinterest.png" />
+      <img alt="flickr" src="img/flickr.png" />
+      <p>DELANI STUDIO</p>
+      <p>2021</p>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#img1").click(function () {
+          $("#ttt").show();
+          $("#img1").hide();
+        });
+        $("#ttt").mouseleave(function () {
+          $("#ttt").hide();
+          $("#img1").show();
+        });
+        $("#img2").click(function () {
+          $("#ttt2").show();
+          $("#img2").hide();
+        });
+        $("#ttt2").mouseleave(function () {
+          $("#ttt2").hide();
+          $("#img2").show();
+        });
+        $("#img3").click(function () {
+          $("#ttt3").show();
+          $("#img3").hide();
+        });
+        $("#ttt3").mouseleave(function () {
+          $("#ttt3").hide();
+          $("#img3").show();
+        });
+      });
+    </script>
   </body>
 </html>
