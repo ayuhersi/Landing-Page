@@ -20,7 +20,7 @@ git clone https://ayuhersi.github.io/Landing-Page/
 Some of my JS doesn't work
 
 ## Technologies Used
-HTML, CSS, JQUERY, BOOTSTRAP
+HTML, CSS, JS
 
 ## Support and contact details
 Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.
